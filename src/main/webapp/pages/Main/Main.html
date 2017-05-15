@@ -5,6 +5,18 @@
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
         <wm-page-content columnwidth="8" name="mainContent" padding="unset 15px">
             <wm-fileupload name="fileupload1" service="FileService" operation="uploadFile"></wm-fileupload>
+            <wm-composite name="composite1">
+                <wm-label class="col-md-3 control-label" name="label1"></wm-label>
+                <wm-container class="col-md-9" name="container1">
+                    <wm-text name="text1"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="composite1">
+                <wm-label class="col-md-3 control-label" name="label2"></wm-label>
+                <wm-container class="col-md-9" name="container2">
+                    <wm-text name="text2"></wm-text>
+                </wm-container>
+            </wm-composite>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
